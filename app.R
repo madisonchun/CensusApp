@@ -48,7 +48,7 @@ server <- function(input, output) {
                      "Percent Hispanic" = "% Hispanic",
                      "Percent Asian" = "% Asian")
     percent_map(data, color, legend, input$range[1], input$range[2])
-  })   
+  })
 }
 
 # Run app ----
